@@ -1,0 +1,4 @@
+ref_genome
+data
+.snakemake
+venv

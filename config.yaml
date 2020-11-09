@@ -1,0 +1,4 @@
+refgenome: 'ref_genome/GCF_003935025.1_Abrus_2018_genomic.fna'
+storage_dir: '/home/odj/Desktop/Snakemake-Pipeline/' 
+threads: 12
+SRA_IDs: ['SRR2073062', 'SRR2073061', 'SRR2073060', 'SRR2073059']
