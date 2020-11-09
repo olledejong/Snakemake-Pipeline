@@ -28,7 +28,7 @@ Now Snakemake needs to be installed:
 pip install snakemake
 ```
 
-Once snakemake is installed, go back to the root of the cloned project, and run the snakemake command like so:
+If this is done, go back to the root of the cloned project, and run the snakemake command like so:
 
 (You should determine yourself how many cores you want to use)
 
