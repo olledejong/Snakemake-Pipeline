@@ -2,3 +2,7 @@ ref_genome
 data
 .snakemake
 venv
+calls/all.vcf
+mapped_reads
+sorted_reads
+logs

@@ -28,10 +28,17 @@ Now Snakemake needs to be installed:
 pip install snakemake
 ```
 
-If this is done, go back to the root of the cloned project, and run the snakemake command like so:
+If this is done, go back to the root of the cloned project.
+To run the FAST-GBS pipeline run the snakemake command like so:
 
 (You should determine yourself how many cores you want to use)
 
 ```
-Snakemake --snakefile Snakefile --cores 6
+snakemake --snakefile Snakefile --cores 6
+```
+
+Fur further insight in the called variants, if not already generated, you could use the following command to generate some plots:
+
+```
+snakemake generate_plots --cores 6
 ```
